@@ -93,7 +93,72 @@ The designer should ensure that:
   - It defines visual hierarchy and ensures readability, even for viewers with color vision deficiencies (e.g., color blindness).  
   - Brightness differences are universally perceptible, while color perception varies across individuals and contexts.
 
-Sources
-[1] Screenshot-2024-12-08-at-9.51.39-PM.jpg https://pplx-res.cloudinary.com/image/upload/v1733694741/user_uploads/ougcaotob/Screenshot-2024-12-08-at-9.51.39-PM.jpg
+<img width="1470" alt="Screenshot 2024-12-08 at 9 59 56 PM" src="https://github.com/user-attachments/assets/10b4d8d3-a0d6-4fe4-a45f-4e8dc319d2f4">
+
+
+
+### **Answers to Question 3**
+
+---
+
+#### **Q3(a)**  
+**(i) Example Metadata for a Pen:**  
+- **Attributes:**
+  - Color: Blue
+  - Ink Type: Gel
+  - Brand: Pilot
+  - Length: 14 cm  
+
+**(ii) Metadata Type:**  
+- **Color:** Descriptive metadata (describes the physical appearance).  
+- **Ink Type:** Administrative metadata (used for categorization).  
+- **Brand:** Descriptive metadata (identifies the manufacturer).  
+- **Length:** Structural metadata (provides physical dimensions).  
+
+**(iii) Standard Usage for Metadata:**  
+A standard like **Dublin Core** can be used to ensure consistency in describing and categorizing metadata attributes. For instance, it can define the format and vocabulary for describing attributes like color or ink type.  
+
+**(iv) Problem with Enforcing Standards:**  
+One major problem is **lack of universal adoption**, where different organizations or individuals may use varying standards, leading to inconsistency in data interoperability.
+
+---
+
+#### **Q3(b)**  
+**Examples of Data Glitches and Their Impact on Decision-Making:**  
+
+1. **Missing Data:**  
+   - Example: Missing water usage data for certain months or areas.  
+   - Impact: Decisions based on incomplete data could result in underestimating water demand, leading to resource shortages.  
+
+2. **Duplicate Records:**  
+   - Example: Duplicate entries for the same household's water usage.  
+   - Impact: Overestimation of water usage, leading to incorrect allocation of resources or inflated costs.
+
+---
+
+#### **Q3(c)**  
+**Three Possible Data Errors in the Table and Cleaning Methods:**  
+
+1. **Error: Inconsistent Formatting (e.g., "6.2" in John’s January entry)**  
+   - Cleaning Method: Standardize all numerical values to a consistent format (e.g., round to one decimal place).  
+
+2. **Error: Missing Values (e.g., Sally’s May entry is blank)**  
+   - Cleaning Method: Use imputation techniques such as filling with the average or median value for that column.  
+
+3. **Error: Incorrect Totals (e.g., Total Expenses row does not match the sum of monthly values)**  
+   - Cleaning Method: Recalculate totals based on corrected individual entries.
+
+---
+
+#### **Q3(d)**  
+**Example of Sensitive Data Under GDPR Regulations:**  
+- Personal data such as names, addresses, phone numbers, or financial details stored on a laptop.  
+
+**Actions to Take After a Laptop Theft:**  
+1. Notify the organization’s Data Protection Officer (DPO) immediately.  
+2. Report the breach to relevant authorities (e.g., Data Protection Commission) within 72 hours if there is a risk to individuals' rights and freedoms.  
+3. Inform affected individuals about the breach and advise them on protective measures (e.g., changing passwords).  
+4. Investigate the breach internally and implement stronger security measures, such as encryption or two-factor authentication, to prevent future incidents.
+
 
 
